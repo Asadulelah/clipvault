@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+.next/
+
+# Tauri / Rust build output
+src-tauri/target/
+src-tauri/Cargo.lock.bak
+src-tauri/gen/schemas/
+
+# Release artifacts (use GitHub Releases for binaries)
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Misc
+.cache/
+.tmp/
+*.tsbuildinfo
